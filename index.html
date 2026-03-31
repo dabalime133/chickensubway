@@ -174,19 +174,20 @@
           </div>
         </div>
 
-        <div class="flex justify-center delay-2 fade-up">
-          <div class="relative phone-float">
+        <div class="flex justify-center delay-2 fade-up w-full">
+          <div class="relative phone-float w-full max-w-[260px]">
             <div class="absolute inset-0 blur-3xl opacity-40 rounded-full" style="background: radial-gradient(circle, var(--purple), transparent 70%); transform: scale(1.1)"></div>
             
-            <div class="relative mx-auto w-full max-w-[280px] sm:max-w-[320px] rounded-[2.5rem] p-2" style="background: linear-gradient(145deg, #1a1a3e, #0a0a20); border: 2px solid rgba(191,95,255,.6); box-shadow: 0 0 40px rgba(191,95,255,.4), inset 0 0 20px rgba(0,0,0,.5);">
+            <div class="relative mx-auto w-full aspect-[9/19.5] rounded-[2.5rem] p-2 flex flex-col" style="background: linear-gradient(145deg, #1a1a3e, #0a0a20); border: 2px solid rgba(191,95,255,.6); box-shadow: 0 0 40px rgba(191,95,255,.4), inset 0 0 20px rgba(0,0,0,.5);">
               
-              <div class="absolute top-4 left-1/2 -translate-x-1/2 w-20 h-5 rounded-full z-20" style="background: #06060F; border-bottom: 1px solid rgba(255,255,255,0.1);"></div>
+              <div class="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-6 rounded-full z-30" style="background: #06060F; border-bottom: 1px solid rgba(255,255,255,0.1);"></div>
               
-              <div class="relative rounded-[2rem] overflow-hidden bg-black" style="aspect-ratio: 1/1.1;">
-                <img src="image_3f053a.jpg" alt="Chicken Subway Gameplay" class="w-full h-full object-cover object-top" />
+              <div class="relative w-full h-full flex-grow rounded-[2rem] overflow-hidden bg-[#06060F] flex items-center justify-center">
+                <span class="text-xs text-white/30 absolute text-center px-4">Загрузка игры...</span>
+                <img src="image_3f053a.jpg" alt="Chicken Subway Gameplay" class="absolute inset-0 w-full h-full object-cover object-center z-10" onerror="this.style.opacity='0'" />
               </div>
               
-              <div class="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full z-20" style="width: 60px; height: 4px; background: rgba(255,255,255,.3)"></div>
+              <div class="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full z-30" style="width: 80px; height: 4px; background: rgba(255,255,255,.3)"></div>
             </div>
           </div>
         </div>
